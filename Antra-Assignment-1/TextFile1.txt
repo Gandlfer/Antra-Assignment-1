@@ -1,0 +1,77 @@
+﻿Test Your Knowledge 1
+What type would you choose for the following “numbers”?
+A person’s telephone number
+String
+A person’s height
+float
+A person’s age
+int
+A person’s gender (Male, Female, Prefer Not To Answer)
+Enum string
+A person’s salary
+int
+A book’s ISBN
+string
+A book’s price
+decimal
+A book’s shipping weight
+float
+A country’s population
+long
+The number of stars in the universe
+long
+The number of employees in each of the small or medium businesses in the
+United Kingdom (up to about 50,000 employees per business)
+long
+2. What are the difference between value type and reference type variables? What is
+boxing and unboxing?
+Value type creates a copy of the variable when assigned to another variable. Changes made to that variable will not affect the main variable
+Reference type creates a reference to the variable when assigned to another variable. Changes made to the variable will occur change in the main variable 
+Boxing is the process of converting a value type to a reference type. 
+Unboxing is the process of converting a reference type to a value type.
+
+3. What is meant by the terms managed resource and unmanaged resource in .NET
+Managed resource are resources that are managed by the .NET framework. 
+They are automatically managed by the garbage collector.
+Unmanaged resources are resource that are not managed by .Net framework.
+Users need to manually manage the resources.
+
+4. Whats the purpose of Garbage Collector in .NET?
+Garbage collector is used to automatically manage the memory in .NET. 
+It automatically releases the memory that is no longer in use. 
+It helps in preventing memory leaks and improves the performance of the application.
+
+Test Your Knowledge 2
+1. What happens when you divide an int variable by 0?
+DivideByZeroException
+2. What happens when you divide a double variable by 0?
+Infinity
+3. What happens when you overflow an int variable, that is, set it to a value beyond its
+range?
+Wrapped around to the other end of the range
+4. What is the difference between x = y++; and x = ++y;?
+x = y++; assigns the value of y to x and then increments y
+x = ++y; increments y and then assigns the value of y to x
+
+5. What is the difference between break, continue, and return when used inside a loop
+statement?
+Break is used to stop the loop and exit
+Continue is used to skip current iteration and move to the next iteration
+Return exits the loop and exits the code block
+
+6. What are the three parts of a for statement and which of them are required?
+Initialization, condition, increment/decrement
+All three are required
+
+7. What is the difference between the = and == operators?
+= assigns the value to the variable
+== checks if the values are equal
+
+8. Does the following statement compile? for ( ; true; ) ;
+Yes
+9. What does the underscore _ represent in a switch expression?
+Default case
+
+10. What interface must an object implement to be enumerated over by using the foreach
+statement?
+IEnumerable
